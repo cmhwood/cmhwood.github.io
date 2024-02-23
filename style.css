@@ -16,9 +16,10 @@ body {
     height: 150vh;
 */
   background-image: url('1 thumbnail.JPG');
-  background-repeat: no-repeat;
-  background-position: top right;
-  max-width: 250px;
+  height: 100px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 
   
   /* end body*/
