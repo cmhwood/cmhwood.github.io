@@ -10,17 +10,10 @@ body {
   color: black; 
   
 /* background gradient */
-/*    background: linear-gradient(-45deg, #ff6347, #f5f5f5, #4682b4);
+    background: linear-gradient(-45deg, #ff6347, #f5f5f5, #4682b4);
     background-size: +400% 400%;
     animation: gradient 15s ease infinite;
     height: 150vh;
-*/
-  background-image: url('1 thumbnail.JPG');
-  height: 100px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
-
   
   /* end body*/
 }
@@ -110,4 +103,3 @@ li {
 	text-align: left;
   
 }
-
