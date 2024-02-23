@@ -1,7 +1,7 @@
 body {
   max-width: 1000px;
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto; 
 	/*padding: 5rem;*/
 
 	/* border-radius: 5px; */
@@ -26,6 +26,7 @@ body {
     height: 100vh;
   */
 }
+/*
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -38,6 +39,7 @@ body {
     100% {
         background-position: 0% 50%;
     }
+*/
 }
     
     
