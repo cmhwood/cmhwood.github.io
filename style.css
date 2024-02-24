@@ -1,24 +1,23 @@
 body {
   
-/*  max-width: 1000px; */
-/*  width: 90%; */
+  max-width: 1000px;
+  width: 90%;
   margin: 0 auto; 
-	padding: 3rem; 
+	padding: 1rem; 
 
 	font-family: Avenir, Arial, Helvetica, sans-serif;
   text-shadow: 5px 5px 15px #0000008c; 
   color: black; 
+  text-align: left;
   
 /* background gradient */
-  
-    background: linear-gradient(-45deg, #ff6347, #f5f5f5, #4682b4);
-    background-size: +400% 400%;
-    animation: gradient 10s ease infinite;
-    height: 150vh;
-  
+  background: linear-gradient(-45deg, #ff6347, #f5f5f5, #4682b4);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
   /* end body*/
 }
-
+  
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -31,42 +30,45 @@ body {
     100% {
         background-position: 0% 50%;
     }
+}
+  
+  
 
+
+  
+ 
 .content-header{
     text-transform: uppercase;
     border-bottom: 2px solid #444444;
-    background-color: rgba(0,0,0, 0.1) 
+    background-color: rgba(0,0,0, 0.1)
   }
 
+	/* text-align: left; */
 
- @media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
   .container {
     width: 100%;
-  } 
-}
-  
-  
+  }
+}  
 
 /* profile*/
-/*.profile_container{
-  display: right;
-
+.profile_container{
+  display: flex;
+    gap: 2rem
 }
 .profile_image_profileimg {
   max-width: 250px;
-} 
+}
 
 img {
   width: 100%
-}*/
+}
 
-
-/* button*/
+/* download button*/
 a {
   text-decoration: none;
   color: blue;
 } 
-
 
 p {
 	font-size: 18px;
@@ -104,3 +106,4 @@ li {
 	text-align: left;
   
 }
+
